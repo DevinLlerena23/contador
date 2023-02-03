@@ -1,0 +1,81 @@
+.App {
+  text-align: center;
+  font: 150% Unispace;
+  background-image: url("https://cdn.discordapp.com/attachments/1052651229131571230/1070879970366328842/sunset.gif");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 200vh;
+  color: rgb(0, 255, 34);
+  
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.Incre{
+  background-color: rgb(187, 66, 214);
+  width: 80px;
+  height: 80px;
+  
+}
+
+.Limpia {
+  background-color: rgb(220, 24, 226);
+  width: 100px;
+  height: 100px;
+  color: rgb(251, 121, 251);
+ 
+}
+
+.Decre {
+  background-color: rgb(231, 44, 227);
+  width: 80px;
+  height: 80px;
+  color: rgb(110, 37, 155);
+  
+}
+
+.anch{
+  width: 300px;
+  border-radius: 15px;
+  height: 50px;
+  padding: 2px;
+  margin: 2px;
+}
+
+.all{
+  border-radius: 17px;
+  width: 200px;
+  height: 50px;
+  padding: 2px;
+  margin: 2px;
+}
+
+.botones {
+  display: flex;
+  justify-content: space-between;
+}
+
+@keyframes border-glow {
+  from {
+    box-shadow: 0 0 10px #fff;
+  }
+  to {
+    box-shadow: 0 0 20px #0022ff;
+  }
+}
+
+.container {
+  
+  border: 2px solid black;
+  border-color: aquamarine;
+  box-shadow: 0 0 10px aquamarine;
+  background-color: rgb(244, 244, 244);
+  border-radius: 20px;
+  width: 280px;
+
+}
